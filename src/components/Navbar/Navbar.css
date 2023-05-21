@@ -12,6 +12,7 @@
     --cardBG:rgb(225,225,235);
 }
 
+
 .header
 {
     position :fixed;
@@ -25,6 +26,8 @@
     box-shadow:0 2px 4px rgba(2,15,29,.242);
 
 }
+
+
 
 .header .logo
 {

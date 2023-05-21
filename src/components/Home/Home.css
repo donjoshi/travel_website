@@ -55,7 +55,7 @@
     position:absolute;
     top:50;
     left: 100px;
-    width:100%;
+    width:80%;
     height:max-content;
     padding:8rem 1.5rem 3rem; 
     display:flex;
@@ -83,4 +83,118 @@
 {
     position:relative;
     font-size:1.8rem;
+}
+
+.homeContent .cardDiv
+{
+    position:relative;
+    padding:2rem;
+    background:var(--whiteColor);
+    border-radius:10px;
+    gap:1rem;
+
+}
+
+.homeContent .cardDiv label
+{
+    display:block;
+    color:var(--textColor);
+    padding-bottom:10px;
+    font-size:13px;
+    font-weight:500;
+
+}
+
+.homeContent .cardDiv .priceInput .label_total
+{
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.homeContent .cardDiv .priceInput .label_total .total
+{
+    color:var(--textColor);
+    font-size:18px;
+    padding-bottom:10px;
+}
+
+.homeContent .cardDiv  .input
+{
+    height:40px;
+    padding:0 1rem;
+    background:var(--inputColor);
+    border-radius:3rem;
+}
+
+.homeContent .cardDiv  .input input
+{
+    background:none;
+    border:none;
+    outline:none;
+    width:100%;
+    font-size:13px;
+    font-weight:500;
+}
+.homeContent .cardDiv .destinationInput .icon
+{
+    font-size:18px;
+    color:var(--PrimaryColor);
+    /* !important; */
+    margin-left:10px;
+
+}
+
+.homeContent .cardDiv  .input[type=range]
+{
+    background:blue;
+}
+
+.homeContent .cardDiv .searchOptions
+{
+    position:absolute;
+    background:var(--gradientColor);
+    width:max-content;
+    bottom:-0.7rem;
+    column-gap:.8rem;
+    padding:5px 1rem;
+    border-radius:3rem;
+    left:50%;
+    transform:translate(-50%);
+    justify-content: center;
+    cursor:pointer;
+}
+
+.homeContent .cardDiv .searchOptions:hover
+{
+    background:var(--PrimaryColor);
+}
+
+.homeContent .cardDiv .searchOptions .icon{
+    font-size:18px;
+}
+
+.homeContent .cardDiv .searchOptions span
+{
+    font-size:13px;
+}
+
+.home .homeContent .homeFooterIcons
+{
+    width:100%;
+    justify-content: space-between;
+}
+.home .homeContent .homeFooterIcons .icon
+{
+    font-size:20px;
+    margin: 0 5px;
+    color:var(--whiteColor);
+    font-weight:600;
+}
+
+.home .homeContent .homeFooterIcons .icon :hover
+{
+    color:var(--PrimaryColor);
+    box-shadow: 0ch 0ch 0ch 0.1ch black;
+    transition:.3s;
 }

@@ -26,7 +26,7 @@ export default function Navbar() {
 }
 
   return (
-    <section classNAme="navBarSection">
+    <section className="navBarSection">
       <header className="header flex">
         <div className="logoDiv">
           <a href="#" className="logo flex">
