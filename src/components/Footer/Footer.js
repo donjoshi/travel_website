@@ -56,8 +56,7 @@ export default function Footer() {
 
             </div>
 
-            <div className="footerLinks grid">
-              
+            <div className="footerLinks grid">              
               <div className="linkGroup">
                 <span className="groupTitle">Our Agency</span>
 
